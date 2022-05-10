@@ -1,0 +1,69 @@
+Prática integradora - Projeto Calculadora
+
+Objetivo
+Vamos programar uma calculadora com o conhecimento que adquirimos até agora.
+A calculadora terá 4 funções básicas:
+● Soma
+● Subtração
+● Multiplicação
+● Divisão
+
+
+Micro desafios - Parte I
+
+O desafio inicial é programar uma calculadora básica que execute as quatro operações
+básicas. Para isso, temos que:
+
+
+[x] Criar uma pasta nova (separa dos projetos anteriores para perdermos onde essa
+prática será feita).
+
+[x] Criar um arquivo somar.js que contenha uma função chamada somar, a qual deve ser
+exportada ao final do arquivo. Esta função deve receber 2 parâmetros e retornar a
+soma dos mesmos.
+
+[x] Criar um arquivo subtrair.js que contenha uma função chamada subtrair, a qual deve
+ser exportada ao final do arquivo. Esta função deve receber 2 parâmetros e retornar a
+diferença entre eles.
+
+[x] Criar um arquivo multiplicar.js que contenha uma função chamada multiplicar, a qual
+deve ser exportada ao final do arquivo. Esta função deve receber 2 parâmetros e
+retornar a multiplicação dos mesmos. Importante:
+a. Contemplar o cenário em que se algum dos dois parâmetros for zero, a função
+retornará zero.
+
+[x] Criar um arquivo dividir.js que contenha uma função chamada dividir, a qual deve ser
+exportada ao final do arquivo. Esta função deve receber 2 parâmetros e retornar a
+divisão dos mesmos. Importante:
+a. Contemplar o cenário em que se algum dos dois parâmetros é zero, a função
+retornará "Não se pode dividir por zero".
+
+Para verificar que até aqui foi tudo bem, recomendamos verificar cada uma das funções e
+testar o seu correto funcionamento.
+
+2
+
+Micro desafios - Parte II
+Agora que chegamos até aqui, que tal ser mais desafiador ainda?
+[x] Criar um arquivo calculadora.js, em que devemos importar os quatro arquivos feitos
+anteriormente.
+
+[x] Executar a função que permite somar e a função que permite subtrair, passando como
+argumentos dois números quaisquer. Mostrar no console os resultados.
+[x] Executar a função que permite multiplicar, passando como argumentos dois números
+quaisquer. Mostrar no console o resultado.
+[x] Executar a função que permite multiplicar, passando agora como um dos dois
+argumentos, o número zero. Mostrar no console o resultado.
+[x] Executar a função que permite dividir, passando como argumentos dois números
+quaisquer. Mostrar no console o resultado.
+[x] Executar a função que permite dividir, passando agora como um dos dois argumentos,
+o número zero. Mostrar no console o resultado.
+
+Parabéns por todo trabalho feito até aqui!
+Para refletirmos um pouco...
+a. O que teria acontecido se, ao invés de gerar um arquivo por cada operação
+matemática, tivéssemos programado tudo em um único arquivo?
+b. Por que o melhor caminho é criar diferentes arquivos e então importá-los em um só?
+c. Será que esta metodologia de trabalho será uma constante daqui em diante?
+
+Até a próxima!

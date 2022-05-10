@@ -1,0 +1,47 @@
+Objetivo
+Integrar conteúdos revisados na aula dentro deste mini projeto.
+Vamos treinar:
+● manipulação de arrays: inserção, edição e listagem
+
+Parte I - Variáveis para o CineHouse
+
+Atividade realizada individualmente.
+
+[x] No arquivo criado na última aula (cinema.js), deve ser criada uma variável do
+tipo array chamada catalogo. Esta será um array de objetos, onde cada objeto
+representará um filme.
+
+[x] O filme deve conter os seguintes atributos:
+a. código (numérico - identificador do filme)
+b. titulo (string)
+c. duração (numérico - em horas)
+d. atores (array de strings - nomes)
+e. anoDeLancamento (numérico)
+f. emCartaz (booleano)
+
+[x] Deverão ser criados dois registros de filmes (de acordo com sua preferência). É
+importante apenas que um deles receba o valor de true na propriedade
+emCartaz e o outro o valor false.
+
+Parte II - Funções para o CineHouse
+Agora precisaremos criar funções que interajam com o array criado por você, serão 3
+funções:
+[x] adicionarFilme
+A função deve receber os parâmetros com as informações necessárias para
+criar um objeto do tipo Filme.
+Qual método dentre os que falamos hoje pode nos ajudar a adicionar
+informações em uma array?
+[x] buscarFilme
+A função deve receber como parâmetro o número identificador do filme e fazer
+busca no array de catálogo e ao fim retornar o objeto encontrado.
+Preferencialmente, retorne de forma mais amigável ao usuário final (pode
+utilizar console para não retornar apenas o objeto).
+Qual método dentre os que falamos hoje pode nos ajudar a buscar uma
+informação em uma array?
+[x] alterarStatusEmCartaz
+A função deve receber como parâmetro o número identificador do filme
+escolhido, buscar o filme com base no parâmetro recebido e alterar o status
+existente da propriedade emCartaz (se estava como true, alterar para false, e
+vice e versa).
+
+Até a próxima!
