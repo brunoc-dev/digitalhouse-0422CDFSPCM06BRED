@@ -1,0 +1,18 @@
+[
+  {
+    "codigo": 3,
+    "titulo": "Donnie Darko",
+    "duracao": 2,
+    "atores": ["Jake Gyllenhaal", "Drew Berrymore"],
+    "anoDeLancamento": 2001,
+    "emCartaz": false
+  },
+  {
+    "codigo": 1,
+    "titulo": "Encanto",
+    "duracao": 1.50,
+    "atores": ["Stephanie Beatriz", "Maluma", "Rhenzy Feliz"],
+    "anoDeLancamento": 2021,
+    "emCartaz": true
+  }
+]

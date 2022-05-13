@@ -1,0 +1,19 @@
+Praticar o uso de callback em conjunto com os métodos revistos na aula
+
+[x] Parte I - Filtrando filmes
+
+Atividade realizada individualmente. 
+
+Iremos agora filtrar os filmes que possuem longa duração. Crie a função listarFilmesDeLongaDuracao, retornando e exibindo para o usuário final todos os filmes do catálogo que possuem duração a partir de 2 horas.
+
+Para este exercício, insira 3 registros no catálogo de filmes que ultrapassem duas horas e outros 2 de duração inferior.
+
+
+[x] Parte II - Nova forma de percorrer uma lista
+
+Nesta etapa precisaremos alterar a função que criamos na aula de loops:
+
+listarTodosOsFilmes
+A função deve percorrer toda a lista de filmes armazenada no catálogo utilizando desta vez o método forEach() e retornar as informações de maneira amigável ao usuário.
+
+Até a próxima!
