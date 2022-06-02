@@ -1,0 +1,124 @@
+body {
+  font-family: 'Ropa sans';
+  margin: 0 auto;
+  width: 100%;
+  max-width: 697px;
+  border: .5px solid #8888888e;
+}
+
+header {
+  padding: 16px 45px;
+  border-bottom: .5px solid #8888888e;
+}
+
+main {
+  padding: 16px 45px;
+}
+
+.banner {
+  margin-bottom: 45px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+section .left,
+section .right {
+  display: inline-block;
+}
+
+.right {
+  margin-left: 90px;
+}
+
+.categories {
+  min-height: 80px;
+  opacity: .7;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.categories p {
+  display: inline-block;
+  margin: 20px auto;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+}
+
+.categories.industrial {
+  background-image: url('../img/industrial.png');
+}
+
+.categories.modern {
+  background-image: url('../img/modern.png');
+}
+
+.categories.classic {
+  background-image: url('../img/classic.png');
+}
+
+.your-style {
+  margin: 45px 0;
+  color: #888888;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.description {
+  background-color: #EEEEEE;
+  padding: 12px;
+  max-width: 232px;
+}
+
+.money {
+  font-size: 25px;
+  line-height: 27px;
+  color: #888888;
+}
+
+.badge {
+  border-radius: 15px;
+  color: white;
+  padding: 0 16px;
+  font-size: 20px;
+  margin-left: 90px;
+}
+
+.badge.green {
+  background-color: #51D275;
+}
+
+.badge.orange {
+  background-color: #DC9730;
+}
+
+footer {
+  background-color: #333333;
+  color: #FFFFFF;
+  padding: 45px;
+  font-size: 12px;
+}
+
+footer div {
+  display: inline-block;
+}
+
+footer .about {
+  margin-left: 140px;
+}
+
+footer .social-media * {
+  margin: 0 10px 0 0
+}
+
+#menu {
+  margin-left: 480px;
+}
