@@ -132,5 +132,51 @@ footer .social-media * {
 }
 
 #menu {
-  margin-left: 480px;
+  display: none;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 15%;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  padding-left: 16px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #888888;
+}
+
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  main {
+    padding: 16px;
+  }
+
+  footer {
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  #menu {
+    margin-left: 65.7%;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 468px) {
+  #menu {
+    margin-left: 65%;
+    display: inline-block;
+  }
 }
