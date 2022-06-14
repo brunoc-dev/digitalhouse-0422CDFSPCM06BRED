@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  display: flex;
+  flex-flow: column;
+  font-family: 'Open Sans', sans-serif, Helvetica, sans-serif;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 100px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-flow: row;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+header nav a {
+  text-decoration: none;
+  color: darkgray;
+  display: block;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.first-section {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: stretch;
+  gap: 1rem;
+  margin: 4rem;
+}
+
+.second-section {
+  display: flex;
+  flex-flow: column;
+  color: white;
+  align-items: center;
+  background-color: #c2175b;
+}
+
+.card {
+  display: flex;
+  flex-flow: column;
+}
+
+.card section {
+  max-height: 300px;
+}
+
+.card footer {
+  display: flex;
+  flex-flow: column;
+  color: black;
+  background-color: white;
+  padding: .8rem;
+  margin: 0;
+  font-size: .8rem;
+}
+
+.card .card-title {
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  row-gap: 1rem;
+  align-self: stretch;
+}
+
+.third-section .details-button {
+  background-color: #c2175b;
+  padding: 1rem 2rem;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  margin-bottom: 1rem;
+}
+
+.third-section .details {
+  flex-grow: 1;
+}
+
+footer {
+  display: flex;
+  flex-flow: row;
+  background-color: #c2175b;
+  padding: 0 6rem;
+  color: white;
+}
+
+footer .column img {
+  max-width: 12rem;
+}
+
+.column.disclaimer {
+  row-gap: 0;
+  flex-grow: 1;
+}
+
+.column.categories {
+  flex-grow: 1;
+}

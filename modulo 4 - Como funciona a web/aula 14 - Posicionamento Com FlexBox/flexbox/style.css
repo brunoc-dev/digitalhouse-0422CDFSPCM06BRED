@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: beige;
+  flex-flow: column wrap;
+  height: 1000px;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  display: block;
+  width: 80%;
+  height: 300px;
+}
+
+.first {
+  background-color: aqua;
+}
+
+.second {
+  background-color: brown;
+}
+
+.third {
+  background-color: blueviolet;
+}
+.fourth {
+  background-color: gold;
+}
