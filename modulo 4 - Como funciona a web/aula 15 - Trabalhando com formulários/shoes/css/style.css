@@ -1,0 +1,225 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: stretch;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+body > header {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  max-height: 100px;
+  flex-shrink: 1;
+  box-shadow: 0 1px 8px -4px black;
+}
+
+body > header img {
+  width: 7rem;
+}
+
+body > header nav {
+  display: flex;
+  align-items: center;
+}
+
+body > header nav ul {
+  display: flex;
+  flex-flow: row;
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+}
+
+body > header nav li {
+  display: flex;
+  align-items: center;
+}
+
+body > header nav a {
+  text-decoration: none;
+  color: darkgray;
+  display: block;
+  padding: 1rem;
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+body > main {
+  min-height: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  flex-grow: 1;
+}
+
+body > main > section {
+  padding: 4rem;
+}
+
+body > main > aside {
+  text-align: justify;
+  padding: 0 4rem 4rem 4rem;
+}
+
+body > footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  background-color: #c2175b;
+  color: white;
+}
+
+body > footer ul {
+  list-style: none;
+}
+
+body > footer span, ul {
+  font-size: .8rem;
+}
+
+body > footer .column img {
+  max-width: 12rem;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  gap: 1rem;
+}
+
+body > main > header > h1 {
+  margin-bottom: 0;
+  color: darkgray;
+  font-size: 1.7rem;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  row-gap: 1rem;
+}
+
+.column.disclaimer {
+  row-gap: 0;
+}
+
+.column.sm {
+  width: 100%;
+  align-self: auto;
+  max-width: 80%;
+}
+
+.field {
+  display: flex;
+  flex-flow: column;
+}
+
+.field input[type=text] + label {
+  margin-bottom: .5rem;
+}
+
+button.submit {
+  background-color: #c2175b;
+  border: none;
+  padding: .5rem;
+  color: white;
+}
+
+button.reset {
+  margin-top: -.5rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+input[type="text"], select {
+  height: 2rem;
+}
+
+input[type="text"], select, textarea {
+  border: .1rem solid gray;
+  border-radius: .2rem;
+}
+
+input[type="text"]:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #c2175b;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 5px #c2175b;
+}
+
+button.submit:hover {
+  background-color: #720f36;
+}
+
+button.reset:hover {
+  background-color: rgb(110, 110, 110);
+  color: white;
+}
+
+@media all and (min-width: 768px) {
+  .column.sm {
+    justify-content: start;
+    width: auto;
+    min-width: 15%;
+  }
+
+  .column.categories nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .column.institucional nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  body > header {
+    justify-content: space-around;
+  }
+
+  body > header nav a {
+    font-size: 1rem;
+  }
+
+  body > footer {
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+
+  body > main > section {
+    max-width: 768px;
+  }
+
+  body > main > aside {
+    padding: 4rem;
+    max-width: 768px;
+  }
+
+  body > main > header {
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+  }
+
+  body > main > header > h1 {
+    min-width: 50%;
+  }
+}

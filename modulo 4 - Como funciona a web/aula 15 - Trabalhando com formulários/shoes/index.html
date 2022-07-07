@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Shoes</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/logo-color.png" alt="">
+    <nav>
+      <ul>
+        <li><a href="#first">TODOS OS PRODUTOS</a></li>
+        <li><a href="#second">COLEÇÕES</a></li>
+        <li><a href="#third">OUTLET</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <header>
+      <h1>Faça parte do nosso time!</h1>
+    </header>
+
+    <section>
+      <form>
+        <div class="field">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome aqui" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="exemplo@mail.com" required>
+        </div>
+
+        <div class="field">
+          <label for="telefone">Telefone</label>
+          <input type="text" id="telefone" name="telefone" placeholder="(xx) 0000-0000">
+        </div>
+
+        <div class="field">
+          <label for="office">Departamento</label>
+          <select name="office" id="office" name="office">
+            <option selected disabled>Selecione</option>
+            <option value="informatica">Informatica</option>
+            <option value="rh">Relações Humanas</option>
+            <option value="vendas">Vendas</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label>Disponibilidade</label>
+
+          <div>
+            <input type="checkbox" id="integral" value="integral" name="availability">
+            <label for="integral">Integral (8h)</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="part-time" value="part-time" name="availability">
+            <label for="part-time">Meio Período (4h)</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="freelancer" value="freelancer" name="availability">
+            <label for="freelancer">Freelancer</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>Qual a melhor forma para entrarmos em contato com vocês?</label>
+
+          <div class="inline">
+            <input type="radio" id="contact-email" value="contact-email" name="contact">
+            <label for="contact-email">Email</label>
+          </div>
+
+          <div class="inline">
+            <input type="radio" id="contact-call" value="contact-call" name="contact">
+            <label for="contact-call">Ligação</label>
+          </div>
+
+          <div class="inline">
+            <input type="radio" id="contact-whatsapp" value="contact-whatsapp" name="contact">
+            <label for="contact-whatsapp">Whatsapp</label>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="message">Mensagem</label>
+          <textarea name="message" id="message" cols="20" rows="10"></textarea>
+        </div>
+
+        <div class="field">
+          <label for="cv">Currículo</label>
+          <input type="file" id="cv">
+        </div>
+
+        <button class="submit" type="submit">Enviar</button>
+        <button class="reset" type="reset">Limpar</button>
+      </form>
+    </section>
+    
+    <aside>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste officia odit corrupti nostrum dolorem doloribus dolorum. Dignissimos atque debitis doloribus explicabo iusto ipsam possimus, natus, inventore eaque consequuntur, expedita adipisci?</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo repellendus, consequatur aliquid, at cum nostrum quo provident tempora inventore earum dignissimos aspernatur non perspiciatis culpa corporis quisquam dolorem officia?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa eveniet fugit perspiciatis vero, beatae illo quas sapiente odio odit tempora animi obcaecati magni deleniti non? Veniam assumenda nisi incidunt suscipit! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore, illum ipsa nisi eveniet accusamus consectetur tempore ducimus vel laudantium dolores excepturi officia fugiat beatae maxime fuga voluptatem ea placeat! Quos.. Quae tempore recusandae incidunt illo esse quisquam ab optio pariatur dicta, ut odit dolore error deserunt minus at? Nesciunt tempora vitae nam.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="column sm disclaimer">
+      <img src="img/logo-white.png" alt="">
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Duis nisl turpis, tincidunt a tortor hendrerit,
+        auctor lacinia lorem. Cras et magna
+      </span>
+    </div>
+
+    <div class="column sm categories">
+      <nav>
+        <ul>
+          <li><strong>Categorias</strong></li>
+          <li>sandálias</li>
+          <li>botas</li>
+          <li>tênis</li>
+          <li>oxford</li>
+          <li>coturnos</li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="column sm institucional">
+      <nav>
+        <ul>
+          <li><strong>Sobre nós</strong></li>
+          <li>perguntas frequentes</li>
+          <li>política de privacidade</li>
+          <li>rastreamentos de pedidos</li>
+          <li>trabalhe conosco</li>
+          <li>contato</li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
