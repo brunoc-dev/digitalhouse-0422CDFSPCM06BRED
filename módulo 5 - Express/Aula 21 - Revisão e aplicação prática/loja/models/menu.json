@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Carpaccio fresco",
+    "descricao": "Entrada Carpaccio de salmão com cítricos",
+    "preco": "U$S 65.50"
+  },
+  {
+    "nome": "Risotto de berinjela",
+    "descricao": "Risotto de berinjela e queijo de cabra",
+    "preco": "U$S 47.00"
+  },
+  {
+    "nome": "Mousse de arroz",
+    "descricao": "Mousse de arroz com leite e aroma de flor de laranjeira",
+    "preco": "U$S 27.50"
+  },
+  {
+    "nome": "Aspargos brancos",
+    "descricao": "Aspargos brancos com vinagrete de legumes e presunto ibérico",
+    "preco": "U$S 37.50"
+  }
+]
