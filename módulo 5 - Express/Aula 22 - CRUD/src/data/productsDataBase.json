@@ -1,0 +1,146 @@
+[
+ {
+  "id": 1,
+  "name": "Cafeteira Moulinex Dolce Gusto Edited",
+  "price": 100,
+  "discount": 50,
+  "category": "visited",
+  "description": "Máquina de café Dolce Gusto Lumio. A máquina de café Dolce Gusto Lumio é uma variedade automática que chegou com um design radical a que estamos acostumados da Dolce Gusto, e neste post contamos tudo o que você precisa saber sobre ela, desde suas características técnicas até a qualidade das cápsulas ou preço.",
+  "image": "img-cafetera-moulinex.jpg"
+ },
+ {
+  "id": 2,
+  "name": "Macbook Pro 2022",
+  "price": 500,
+  "discount": 3,
+  "category": "in-sale",
+  "description": "Macbook Pro 2019 Mpxq2ll/a Intel Core i5 2.3 Ghz 8gb RAM 128gb SSD 13.3 Retina Display Apple Brand New Original. Importado dos EUA. Entregue com a fatura de compra para ter a garantia do fabricante.",
+  "image": "img-macbook-pro-2019.jpg"
+ },
+ {
+  "id": 3,
+  "name": "Samsung Galaxy S10",
+  "price": 72999,
+  "discount": 25,
+  "category": "in-sale",
+  "description": "Experiência excepcional de visualização. Assista suas séries e filmes favoritos na melhor definição, com cores brilhantes e detalhes precisos em todo o seu conteúdo, e desfrute ainda mais do melhor entretenimento graças a sua tela grande e amplos ângulos de visão.",
+  "image": "img-samsung-galaxy-s10.jpg"
+ },
+ {
+  "id": 4,
+  "name": "Geladeira frost free Whirlpool WRM45A",
+  "description": "Aproveite o frescor de sua comida e guarde-a de maneira prática e conveniente em seu refrigerador Whirlpool, o protagonista de sua cozinha. Seu sistema frost free evita a geração de gelo e lhe permitirá preservar o sabor e as propriedades nutricionais de seus produtos, enquanto seu freezer de 86 litros de capacidade facilitará a distribuição e a arrumação de seus alimentos congelados, para que você não tenha que se preocupar com a falta de espaço.",
+  "price": 47900,
+  "discount": 10,
+  "image": "img-heladera-whirpool.jpg",
+  "category": "in-sale"
+ },
+ {
+  "id": 5,
+  "name": "Nikon Reflex D3500 - Kit",
+  "description": "Inclui a câmera D3500, a lente de zoom AF-P DX NIKKOR 18-55mm e a lente de zoom AF-P DX NIKKKOR 70-300mm super objetiva compacta. Ambas as lentes focalizam rápida e silenciosamente, tornando-as ideais para filmagens de vídeo com praticamente nenhum ruído de acionamento.",
+  "price": 53000,
+  "discount": 20,
+  "image": "img-camara-nikon.jpg",
+  "category": "in-sale"
+ },
+ {
+  "id": 6,
+  "name": "Ar Condicionado 3200w Frio / Calor",
+  "description": "AIR SPLIT 3200W TACA-3200WCHSA/KC FC TCL. Capacidade fria 3200 Watts. Capacidade de aquecimento 3300 Watts. Potência elétrica (W) frio 996. Potência elétrica (W) calor 1028. Eficiência energética calor C. Eficiência energética frio A. Frigoríficos 2750 UNIDADE INDOOR. Peso bruto 10kg. Peso líquido 7 kg",
+  "price": 20999,
+  "discount": 12,
+  "image": "img-aire-acondicionado.jpg",
+  "category": "in-sale"
+ },
+ {
+  "id": 7,
+  "name": "Notebook Lenovo I3 Intel 8gb Ram",
+  "description": "PROCESSADOR / CHIPSET. CPU: Intel Core i3(8ª geração) 8130U / 2,2 GHz. Velocidade máxima do turbo: 3, 4 GHz. Número de núcleos: Núcleo duplo. Cache: 4 MB. Arquitetura 64 bit: ss. MEMÓRIA CACHE. Capacidade instalada: 4 MB. ARMAZENAMENTO. Interface Serial ATA - 600",
+  "price": 36700,
+  "discount": 5,
+  "image": "img-laptop-lenovo.jpg",
+  "category": "in-sale"
+ },
+ {
+  "id": 8,
+  "name": "Apple iPhone 11 Pro Dual SIM 256 GB",
+  "description": "O novo smartphone que tem tudo isso! Com este lançamento, a Apple quebrou todos os seus recordes. Seu design se destaca por suas linhas finas e distintas de uma única folha de vidro resistente, combinada com alumínio de excelente qualidade.",
+  "price": 148000,
+  "discount": 2,
+  "image": "img-iphone-11.jpg",
+  "category": "in-sale"
+ },
+ {
+  "id": 9,
+  "name": "Teclado Apple Magic Sem Fio",
+  "description": "O Magic Keyboard combina um design elegante com uma bateria recarregável integrada e funções de chave aprimoradas. Com um mecanismo de tesoura estável sob cada chave, bem como um curso de chave otimizado e um perfil baixo, o Magic Keyboard oferece uma experiência de digitação notavelmente confortável e precisa.",
+  "price": 11399,
+  "discount": 0,
+  "image": "img-apple-magic-keyboard.jpg",
+  "category": "visited"
+ },
+ {
+  "id": 10,
+  "name": "Mouse Sem Fio Logitech M280",
+  "description": "Uso mais confortável para a mão direita graças ao formato contornado com revestimento de borracha macia. A bateria dura até 18 meses, graças ao projeto de economia de energia. O M280 entra automaticamente em modo de repouso quando não está em uso.",
+  "price": 1200,
+  "discount": 10,
+  "image": "img-mouse-logitech.jpg",
+  "category": "visited"
+ },
+ {
+  "id": 11,
+  "name": "Alto-falante Sem Fio Bose Soundtouch 10",
+  "description": "Alto-falante sem Fio Bose Soundtouch 10. SoundTouch®. A maneira fácil de tocar música sem fio em sua casa. Características. Marca: Bose. Modelo: SoundTouch. Cor: Pretoinalámbrica. Características. » Marca: Bose. » Modelo: SoundTouch. » Color: Negro",
+  "price": 29990,
+  "discount": 12,
+  "image": "img-parlante-bose.jpg",
+  "category": "visited"
+ },
+ {
+  "id": 12,
+  "name": "Home Theatre Sony Bdv-e4100",
+  "description": "O som surround de 5.1 canais de 1000W proporciona um verdadeiro áudio de impacto para efeitos especiais de cinema, música e efeitos sonoros esportivos. Com a tecnologia Near Field Communication (NFC), você pode desfrutar de One-touch Sound para reprodução instantânea de música.",
+  "price": 32990,
+  "discount": 0,
+  "image": "img-home-theater-sony.jpg",
+  "category": "visited"
+ },
+ {
+  "id": 13,
+  "name": "Smart TV Samsung 4K 50",
+  "description": "Com a Samsung UN50MU6100 Smart TV, experimente uma nova experiência de visualização com resolução 4K, apresentando-lhe imagens de alta qualidade e altamente detalhadas. Agora tudo o que você vê ganhará vida com cores mais realistas e mais brilho. Graças ao seu tamanho de 50, você pode transformar seu espaço em um cinema e se transportar para onde quer que queira ir.",
+  "price": 34990,
+  "discount": 0,
+  "image": "img-tv-samsung-smart.jpg",
+  "category": "visited"
+ },
+ {
+  "id": 14,
+  "name": "Sony S6700 Reprodutor De Blu-ray ",
+  "description": "Curta seus filmes favoritos com até quatro vezes mais detalhes do que Full HD, graças à conversão do sinal 4K. Quando conectado a uma TV compatível, um processador de vídeo avançado converte o vídeo padrão em um sinal com resolução próxima a 4K (3840 x 2160). Com oito milhões de pixels, você obtém imagens mais nítidas e detalhadas, e a maior qualidade de imagem permite que você se sente mais perto da tela para uma experiência cinemática.",
+  "price": 10999,
+  "discount": 5,
+  "image": "img-sony-blueray.jpg",
+  "category": "visited"
+ },
+ {
+  "id": 15,
+  "name": "Bicicleta Mountain Bike Aro 29",
+  "description": "Mountain Bike Fierce Rodado 29 21 velocidade. Tipo: Mountain Bike. Conjunto de rodas: 29. Material da armação: Alumínio. Tamanho: 18. Suspensão: Frontal. Velocidades: 21 - Shimano. Sistema de freio: Disco mecânico. Jantes: Parede dupla.",
+  "price": 15979,
+  "discount": 12,
+  "image": "img-bicicleta-fierce.jpg",
+  "category": "visited"
+ },
+ {
+  "id": 16,
+  "name": "Sony Srs-xb12 Alto-falante Bluetooth Portátil",
+  "price": 4699,
+  "discount": 5,
+  "category": "in-sale",
+  "description": "Deixe a música de dança ganhar vida com o EXTRA BASS™ Animar o ambiente com o EXTRA BASS™1. Um radiador passivo trabalha com o alto-falante mono para aumentar os tons graves e melhorar os graves, apesar do tamanho compacto.",
+  "image": "img-parlante-sony.jpg"
+ }
+]
