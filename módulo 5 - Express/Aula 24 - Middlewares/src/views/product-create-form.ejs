@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <!-- Include Head -->
-<%- include('partials/head', {title: 'Editando: ' + product.name}) %>
+<%- include('partials/head', {title: 'Formulário de criação'}) %>
 <body>
 	<!-- Header -->
 	<%- include('partials/headerNavbar') %>
@@ -10,49 +10,45 @@
 	<div class="container products-wrapper">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="products-title">Você está editando: <i><%= product.name %></i></h2>
+				<h2 class="products-title">Formulário de criação do produto</h2>
 			</div>
 		</div>
 		<div class="col-12">
-			<form action="/products/edit/<%= product.id %>?_method=PUT" method="POST">
+			<form action="/products/create" method="POST" enctype="multipart/form-data">
 				<div class="row product-detail">
 					<div class="col-12 col-md-6">
 						<label for="name" class="form-label">Nome do produto:</label>
-						<input type="text" id="name" name="name" placeholder="Ej: Chinelos Reebok" class="form-input" value="<%= product.name %>">
+						<input type="text" id="name" name="name" placeholder="Ej: Chinelos Reebok" class="form-input">
+						<h2 class="error"><%= errors.name %></h2>
 					</div>
-
 					<div class="col-12 col-md-6">
 						<label for="price" class="form-label">Preço do produto:</label>
-						<input type="text" id="price" name="price" placeholder="Ej: 5678" class="form-input" value="<%= product.price %>">
+						<input type="text" id="price" name="price" placeholder="Ej: 5678" class="form-input">
+						<h2 class="error"><%= errors.price %></h2>
 					</div>
-
 					<div class="col-12 col-md-6">
 						<label for="discount" class="form-label">Desconto:</label>
-						<input type="text" id="discount" name="discount" placeholder="Ej: 15" class="form-input" value="<%= product.discount %>">
+						<input type="text" id="discount" name="discount" placeholder="Ej: 15" class="form-input">
 					</div>
-
 					<div class="col-12 col-md-6">
 						<label for="category" class="form-label">Categoria:</label>
 						<select name="category" id="category" class="form-input">
 							<option value="">Escolhi</option>
-							<option value="in-sale" <% if (product.category == 'in-sale') { %>
-							 selected
-							<% } %>>Em oferta</option>
-							<option value="visited" <% if (product.category == 'visited') { %>
-							 selected
-							<% } %>>Últimos adicionados</option>
+							<option value="in-sale">Em oferta</option>
+							<option value="visited">Últimos adicionados</option>
 						</select>
 					</div>
-
 					<div class="col-12">
 						<label for="description" class="form-label">Descrição:</label>
-						<textarea name="description" id="description" class="form-input">
-							<%= product.description %>
-						</textarea>
+						<textarea name="description" id="description" class="form-input"></textarea>
 					</div>
-
 					<div class="col-12">
-						<button type="submit" class="buy-now-button">Salvar producto</button>
+						<label class="form-label" for="image">Imagem do produto:</label>
+						<input class="form-input" type="file" name="image" id="image">
+						<h2 class="error"><%= errors.file %></h2>
+					</div>
+					<div class="col-12">
+						<button type="submit" class="buy-now-button">Salvar produto</button>
 					</div>
 				</div>
 			</form>

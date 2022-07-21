@@ -1,19 +1,8 @@
 // ************ Require's ************
 const express = require('express');
-const multer = require('multer');
+const upload = require('../middlewares/multer');
+const productValidator = require('../middlewares/productValidator');
 const router = express.Router();
-
-const storage = multer.diskStorage({
-  destination: (req, file, callback) => {
-    callback(null, __dirname + '../../../public/images/products');
-  },
-
-  filename: (req, file, callback) => {
-    callback(null, Date.now() + '-' + file.originalname);
-  }
-});
-
-const upload = multer({ storage });
 
 // ************ Controller Require ************
 const productsController = require('../controllers/productsController');
@@ -23,9 +12,9 @@ router.get('/', productsController.index);
 
 /*** CREATE ONE PRODUCT ***/
 router.get('/create/', productsController.create);
-router.post('/create/', upload.single('image'), productsController.store);
+router.post('/create/', upload.single('image'), productValidator, productsController.store);
 
-/*** GET ONE PRODUCT ***/ 
+/*** GET ONE PRODUCT ***/
 router.get('/detail/:id', productsController.detail);
 
 /*** EDIT ONE PRODUCT ***/ 
