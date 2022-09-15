@@ -1,13 +1,19 @@
 const createError = require("http-errors");
 const express = require("express");
 const path = require("path");
+const cors = require('cors')
 
 var usersRouter = require("./routes/users");
 var app = express();
 
+app.use(cors({
+  origin: '*'
+}))
+
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
+
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

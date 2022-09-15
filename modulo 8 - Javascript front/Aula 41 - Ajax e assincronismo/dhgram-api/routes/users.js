@@ -3,11 +3,8 @@ var router = express.Router();
 
 const apiUserController = require("../controllers/userController");
 
-router.get("/", (req, res) => {
-  return res.status(200).json({
-    status: "Api em funcionamento"
-  });
-});
+router.get("/", apiUserController.index);
+
 router.post("/", apiUserController.store);
 
 module.exports = router;

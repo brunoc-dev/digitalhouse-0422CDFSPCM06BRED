@@ -4,5 +4,5 @@ module.exports = {
   username: "root",
   port: 3306,
   password: "",
-  database: "dhgram",
+  database: "dhgram_api",
 };
