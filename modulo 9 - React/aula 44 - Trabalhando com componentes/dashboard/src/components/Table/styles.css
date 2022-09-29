@@ -1,0 +1,19 @@
+.t-head, .t-row {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.t-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.t-row > li, .t-head > li {
+  width: 20%;
+  overflow: scroll; 
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+}
