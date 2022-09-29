@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon src/app.js"
+    "start": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "method-override": "^3.0.0",

@@ -23,6 +23,7 @@ module.exports = (sequelize, dataTypes) => {
         favorite_movie_id: dataTypes.BIGINT(10).UNSIGNED
     };
     let config = {
+        tableName: 'actors',
         timestamps: true,
         createdAt: 'created_at',
         updatedAt: 'updated_at',
