@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const methodOverride = require('method-override');
 const app = express();
-
+const cors = require("cors");
 
 //Ejecuto el llamado a mis rutas
 const indexRouter = require('./routes/index');
@@ -17,9 +17,13 @@ const apiGenresRouter = require('./routes/api/genres')
 const apiActorsRouter = require('./routes/api/actors')
 
 
+app.use(cors({
+    origin: '*'
+}))
 // view engine setup
 app.set('views', path.resolve(__dirname, './views'));
 app.set('view engine', 'ejs');
+
 
 app.use(express.static(path.resolve(__dirname, '../public')));
 

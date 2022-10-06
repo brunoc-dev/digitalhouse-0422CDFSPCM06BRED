@@ -1,0 +1,21 @@
+version: "3.7"
+services:
+  database:
+    container_name: database
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - "3306:3306"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # volumes:
+      # - mysqlvol:/var/lib/mysql
+      # - ./dump.sql:/docker-entrypoint-initdb.d/dump.sql
+    networks:
+      - mysql-compose-network
+volumes:
+  mysqlvol: {}
+networks: 
+  mysql-compose-network:
+    driver: bridge
